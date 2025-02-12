@@ -1,0 +1,16 @@
+.listItem {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+
+}
+
+.character {
+    margin: 0;
+    font-size: 1.5em;
+}
+
+.leftAlign {
+    text-align: left;
+}
