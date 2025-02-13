@@ -1,8 +1,8 @@
 import "./App.css";
-import RenderConsonants from "./components/RenderConsonants/RenderConsonants";
+import { RenderAllConsonants } from "./components";
 
 function App() {
-  return <RenderConsonants />;
+  return <RenderAllConsonants />;
 }
 
 export default App;

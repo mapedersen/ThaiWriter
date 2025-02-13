@@ -3,7 +3,7 @@ import { ConsonantType } from "../../types";
 import Consonant from "../Consonant/Consonant";
 import styles from "./RenderConsonants.module.css";
 
-const RenderConsonants = () => {
+const RenderAllConsonants = () => {
   return (
     <ul className={styles.list}>
       {consonants.map((consonant: ConsonantType) => (
@@ -13,4 +13,4 @@ const RenderConsonants = () => {
   );
 };
 
-export default RenderConsonants;
+export default RenderAllConsonants;
